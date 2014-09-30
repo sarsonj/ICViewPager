@@ -60,6 +60,15 @@ typedef NS_ENUM(NSUInteger, ViewPagerComponent) {
  */
 @property (weak) id <ViewPagerDelegate> delegate;
 
+/**
+* indicates non fullscreen controller
+*/
+@property (nonatomic) BOOL nonFullscreenController;
+
+
+
+
+
 #pragma mark Methods
 /**
  * Reloads all tabs and contents
